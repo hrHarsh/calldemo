@@ -12,6 +12,8 @@ target 'callDemo' do
     :hermes_enabled => false
   )
 
+  pod 'RNFirebase', :path => '../node_modules/react-native-firebase'
+
   target 'callDemoTests' do
     inherit! :complete
     # Pods for testing
